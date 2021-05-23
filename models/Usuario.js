@@ -21,6 +21,10 @@ const UsuariosSchema = mongoose.Schema({
     registro: {
         type: Date, 
         default: Date.now(), 
+    },
+    admin: {
+        type: Boolean,
+        default: false,
     }
 })
 

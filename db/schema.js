@@ -30,7 +30,8 @@ const typeDefs = gql`
     input UsuarioInput {
         nombre: String!
         email: String!
-        password: String!
+        password: String! 
+        admin: Boolean
     }
 
     input AutenticarInput {
